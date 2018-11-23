@@ -11,7 +11,7 @@ A stub class is an partial implementation for an interface or class with the pur
 
 A mock object is a dummy implementation for an interface or a class in which you define the output of certain method calls. Mock objects are configured to perform a certain behavior during a test. They typically record the interaction with the system and tests can validate that.
 
-##### Mokito Object generation
+##### Mockito Object generation
 
 You can create mock objects manually (via code) or use a mock framework to simulate these classes. Mock frameworks allow you to create mock objects at runtime and define their behavior.
 

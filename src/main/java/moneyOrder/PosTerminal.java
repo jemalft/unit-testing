@@ -6,6 +6,7 @@ public class PosTerminal {
     private final ReceiptPrinter receiptPrinter;
     private final BankConnection bankConnection;
 
+
     public PosTerminal(BankConnection bankConnection,
                        ReceiptPrinter receiptPrinter) {
         this.bankConnection = bankConnection;
@@ -16,4 +17,7 @@ public class PosTerminal {
 
         return false;
     }
+
+
+
 }
