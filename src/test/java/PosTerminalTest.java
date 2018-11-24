@@ -2,6 +2,8 @@ import moneyOrder.BankConnection;
 import moneyOrder.ReceiptPrinter;
 import org.testng.annotations.Test;
 
+import java.util.regex.Pattern;
+
 import static org.mockito.Mockito.mock;
 
 public class PosTerminalTest {

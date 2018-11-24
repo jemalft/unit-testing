@@ -6,13 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb09f90c-8ac1-48f0-b04d-358e115de7da" name="Default Changelist" comment="">
+    <list default="true" id="cb09f90c-8ac1-48f0-b04d-358e115de7da" name="Default Changelist" comment="Updated the readme doc.">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/moneyOrder/PosTerminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/moneyOrder/PosTerminal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PosTerminalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PosTerminalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/moneyOrder/PosTerminal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/moneyOrder/PosTerminal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PosTerminalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PosTerminalTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,17 +23,19 @@
     <session id="1880932342">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="10" />
+          <entry key="gitignore" value="1" />
           <entry key="java" value="23" />
           <entry key="md" value="3" />
           <entry key="txt" value="4" />
@@ -46,6 +45,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="10" />
+          <entry key="Git file" value="1" />
           <entry key="JAVA" value="19" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -55,16 +55,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="88" />
+          <entry key="java" value="198" />
           <entry key="md" value="55" />
-          <entry key="txt" value="20" />
+          <entry key="txt" value="43" />
           <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="88" />
+          <entry key="JAVA" value="198" />
           <entry key="Markdown" value="55" />
+          <entry key="PLAIN_TEXT" value="23" />
           <entry key="Scratch" value="20" />
           <entry key="XML" value="12" />
         </counts>
@@ -76,11 +77,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PosTerminalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="285">
+              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,10 +89,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/moneyOrder/PosTerminal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="270">
               <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
             </state>
           </provider>
@@ -108,6 +114,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -122,6 +129,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/moneyOrder/PosTerminal.java" />
         <option value="$PROJECT_DIR$/src/test/java/PosTerminalTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -132,10 +140,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="812" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-257" />
+    <option name="y" value="-957" />
+    <option name="width" value="1539" />
+    <option name="height" value="823" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -144,6 +153,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="transaction" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Mokito-Study" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,63 +175,6 @@
               <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mokito-Study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mokito-Study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mokito-Study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mokito-Study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="moneyOrder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mokito-Study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="moneyOrder" type="462c0819:PsiDirectoryNode" />
-              <item name="Account" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mokito-Study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="moneyOrder" type="462c0819:PsiDirectoryNode" />
-              <item name="BankConnection" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mokito-Study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="moneyOrder" type="462c0819:PsiDirectoryNode" />
-              <item name="PosTerminal" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mokito-Study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="moneyOrder" type="462c0819:PsiDirectoryNode" />
-              <item name="ReceiptPrinter" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
@@ -233,195 +196,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="PosTerminalTest" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mockito:mockito-all:1.8.4" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mockito:mockito-all:1.8.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="mockito-all-1.8.4.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mockito:mockito-all:1.8.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="mockito-all-1.8.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mockito:mockito-all:1.8.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="mockito-all-1.8.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="mockito" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mockito:mockito-all:1.8.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="mockito-all-1.8.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="mockito" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mockito:mockito-all:1.8.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="mockito-all-1.8.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="mockito" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="creation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mockito:mockito-all:1.8.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="mockito-all-1.8.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="mockito" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="creation" type="462c0819:PsiDirectoryNode" />
-              <item name="jmock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mockito:mockito-all:1.8.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="mockito-all-1.8.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="mockito" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="creation" type="462c0819:PsiDirectoryNode" />
-              <item name="jmock" type="462c0819:PsiDirectoryNode" />
-              <item name="ClassImposterizer" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mockito:mockito-all:1.8.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="mockito-all-1.8.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="mockito" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="creation" type="462c0819:PsiDirectoryNode" />
-              <item name="MockSettingsImpl" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mockito:mockito-all:1.8.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="mockito-all-1.8.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="mockito" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mockito:mockito-all:1.8.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="mockito-all-1.8.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="mockito" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="MockCreationValidator" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mockito:mockito-all:1.8.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="mockito-all-1.8.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="mockito" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="MockUtil" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mockito:mockito-all:1.8.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="mockito-all-1.8.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="mockito" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="MockitoCore" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mockito:mockito-all:1.8.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="mockito-all-1.8.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="mockito" type="462c0819:PsiDirectoryNode" />
-              <item name="Mockito" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.testng:testng:6.14.3" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.testng:testng:6.14.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="testng-6.14.3.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.testng:testng:6.14.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="testng-6.14.3.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="testng" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.testng:testng:6.14.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="testng-6.14.3.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="testng" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.testng:testng:6.14.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="testng-6.14.3.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="testng" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="Invoker" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.testng:testng:6.14.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="testng-6.14.3.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="testng" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="MethodInvocationHelper" type="1a9f42e2:ClassTreeNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="transaction" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Mokito-Study" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -447,9 +221,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="run  &#9;ACTION&#9;Rerun&#10;build &#9;ACTION&#9;CompileDirty&#10;termi&#9;ACTION&#9;ActivateTerminalToolWindow" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542983002817" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543020463407" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA&#10;TEXT" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19444445" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -546,12 +320,17 @@
       <option name="presentableId" value="Default" />
       <updated>1541983840795</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updated the readme doc.">
+      <created>1542983115704</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542983115704</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PosTerminalTest - 2018.11.19 at 19h 08m 40s.xml">
-      <configuration name="PosTerminalTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="PosTerminalTest - 2018.11.22 at 16h 45m 55s.xml">
       <configuration name="PosTerminalTest" configurationId="TestNG" />
     </history-entry>
@@ -579,8 +358,11 @@
     <history-entry file="PosTerminalTest - 2018.11.23 at 09h 20m 45s.xml">
       <configuration name="PosTerminalTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="PosTerminalTest - 2018.11.23 at 19h 35m 39s.xml">
+      <configuration name="PosTerminalTest" configurationId="TestNG" />
+    </history-entry>
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -590,29 +372,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="812" extended-state="6" />
-    <editor active="true" />
+    <frame x="-257" y="-957" width="1539" height="823" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49861112" visible="true" weight="0.26037195" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499316" visible="true" weight="0.24649298" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5013889" side_tool="true" visible="true" weight="0.26037195" />
-      <window_info anchor="bottom" id="Dependency Viewer" weight="0.32916668" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.32916668" />
+      <window_info id="Favorites" order="6" sideWeight="0.500684" side_tool="true" weight="0.24315298" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32777777" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.499666" weight="0.3994528" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32916668" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32916668" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.499666" weight="0.32831737" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.32916668" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50167" side_tool="true" weight="0.3994528" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32916668" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="11" sideWeight="0.49833" weight="0.32831737" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32916668" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -625,6 +406,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated the readme doc." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the readme doc." />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -639,9 +424,7 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/jar_for_production.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/jar_for_production.xml" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="text-editor">
         <state>
@@ -681,20 +464,8 @@
     <entry file="file://$USER_HOME$/Library/Caches/IdeaIC2018.2/temp-testng-customsuite.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -720,9 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#443#444#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,17 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#4902#4903#0" expanded="true" />
-            <element signature="e#4981#4982#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/moneyOrder/PosTerminal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -774,13 +531,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PosTerminalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="285">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/moneyOrder/PosTerminal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -804,7 +571,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.19444445" />
               </list>
             </option>
           </splitter-proportions>
@@ -815,7 +582,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.19444445" />
               </list>
             </option>
           </splitter-proportions>
@@ -827,7 +594,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.19444445" />
               </list>
             </option>
           </splitter-proportions>
@@ -864,7 +631,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.19444445" />
               </list>
             </option>
           </splitter-proportions>
