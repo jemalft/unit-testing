@@ -1,3 +1,5 @@
+package moneyOrder;
+
 import moneyOrder.BankConnection;
 import moneyOrder.ReceiptPrinter;
 import org.testng.annotations.Test;
